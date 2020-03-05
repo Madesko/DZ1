@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление статьи</title>
+</head>
+<body>
+    <form enctype="multipart/form-data" name="addarticle" action="#" method="post">
+        <p>Форма добавления статьи</p>
+        <div>
+            <label for="name">Название статьи</label>
+            <input minlength="2" maxlenght="20" required id="name" type="text" name="articlename" placeholder="Имя" value="?">
+        </div>
+        <div>
+            <label for="textarea1">Краткое описание</label>
+            <textarea minlenght="20" id="textarea1" name="textarea1"></textarea>
+        </div>
+        <div>
+            <label for="photo">Фотографии</label>
+            <input id="photo" multiple accept="image/*" type="file" name="photo[]">
+        </div>
+        <div>
+            <label for="textarea2">Статья</label>
+            <textarea minlenght="100" id="textarea2" name="textarea2"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Добавить">
+        </div>
+    </form>
+</body>
+</html>
