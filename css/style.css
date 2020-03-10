@@ -1,0 +1,6 @@
+﻿body {
+    background: #c7b39b url("body2.jpg") center no-repeat fixed;
+    background-size: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
