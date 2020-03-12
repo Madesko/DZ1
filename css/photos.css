@@ -1,0 +1,17 @@
+﻿
+.flex-11ele {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-5ele {
+    flex-wrap: wrap;
+}
+
+.flex-4 {
+    flex: 33.33%;
+}
+
+.flex-6 {
+    flex: 50%;
+}
